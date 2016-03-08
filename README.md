@@ -1,3 +1,3 @@
-## Description
+## Overview
 
-These are custom WordPress themes I have developed. They each require some plugins, most commonly Advanced Custom Fields and Custom Post Types UI.  The FOCC one will require Contact Form 7.
+These are custom WordPress themes I have developed. They each require some plugins, most commonly Advanced Custom Fields and Custom Post Types UI. I tend to use `_s`, or `underscores`, as a starter theme, and work from there. Go check it out at http://underscores.me. Honestly, the themes currently listed here are not that flexible, so I don't recommend you using them for your site unless you're going to do some work on them.
