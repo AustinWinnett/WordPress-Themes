@@ -1,0 +1,435 @@
+body {
+    
+    background-color: #2c2c2c;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+
+p {
+    
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.8em;
+    
+}
+
+h2 {
+    
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    
+}
+
+li {
+    
+    list-style: none;
+    
+}
+
+#menu {
+    
+    color: #c1c1c1;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+#menu a {
+    
+    font-size: 3em;
+    color:white;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s;
+    
+}
+
+#menu a:hover {
+    
+    color: #00b100;
+    
+}
+
+#menu a.active {
+    
+    /*color: #ff8484;
+    text-decoration: underline;
+    padding-bottom: 10px;*/
+    border-bottom: 3px solid red;
+}
+
+/*.active {
+    
+    height: 3px;
+    width: 100px;
+    background-color:red;
+    position:relative;
+    left: 20%;
+    
+}*/
+
+#mainBox .container {
+    
+    padding: 0;
+    
+}
+
+#mainBox .row {
+    
+    margin: 0;
+    
+}
+
+
+.main {
+    
+    background-color: white;
+    height: 82vh;
+    text-align: center;
+    overflow: auto;
+    
+}
+
+.mainContent {
+    
+    position:relative;
+    top: 25%;
+    padding: 20px;
+    
+}
+
+.mainContent h1 {
+    
+    font-family: 'Amatic SC', cursive;
+    font-size: 5em;
+    
+}
+
+.mainContent p.lead {
+    
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2em;
+    
+}
+
+.mainContainer {
+    
+    background-color: white;
+    height: 82vh;
+    width:100%;
+    padding: 20px;
+    overflow:auto;
+    
+}
+
+.mainContainer h1 {
+    
+    font-family: 'Amatic SC', cursive;
+    font-size: 5em;
+    text-align: center;
+    padding-bottom: 15px;
+    
+}
+
+.mainContainer li {
+    
+    font-size: 1.8em;
+    
+}
+
+.mainContainer p {
+    
+    text-indent: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+
+.picture {
+    
+    background: url('../img/area.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 82vh;
+
+}
+
+.wormPic {
+    
+    height: 100px;
+    width: 100px;
+    
+}
+
+.thumb {
+    
+    height: 150px;
+    width: 150px;
+    
+}
+
+.mobileMenu {
+    
+    display: none;
+    
+}
+
+.panel-body {
+    
+    font-size: .8em;
+    
+}
+
+.aboutPhoto {
+    
+    float: right;
+    width: 170px;
+    height: 170px;
+    
+}
+
+.table tbody tr td {
+    
+    border-top: none;
+    text-align: center;
+    padding: 20px 5px;
+    
+}
+
+.table tbody tr td img {
+    
+    transition: 0.4s;
+    
+}
+
+
+.table tbody tr td img:hover {
+    
+    -webkit-box-shadow: 0px 0px 19px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 19px 8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 19px 8px rgba(0,0,0,0.75);
+
+    
+}
+
+.amenities {
+    
+    text-indent: 1em;
+    
+}
+
+footer {
+    
+    color: white;
+    padding: 0;
+    margin: 0;
+    
+}
+
+footer .container {
+    
+    padding: 0;
+    
+}
+
+footer p {
+    
+    padding-top: 5px;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.icons {
+    
+    padding-left: 20px;
+    font-size: 1.2em;
+    color:white;
+    
+}
+
+.icons:hover {
+    
+    color: #bcbcbc;
+    
+}
+
+.image-cropper {
+    width: 125px;
+    height: 125px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid gray;
+}
+
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.clear {
+    
+    clear: left;
+    
+}
+
+
+
+
+
+
+#meredith {
+    
+    display: none;
+    
+}
+
+#sasha {
+    
+  display: none;
+    
+}
+
+#linda {
+    
+  display: none;
+    
+}
+
+.meredithShow {
+    
+    text-align: right;
+    position: relative;
+    top: 75px;;
+    left: 100%;
+    
+}
+
+.sashaShow {
+    
+    text-align: right;
+    position: relative;
+    top: 75px;;
+    right: 100%;
+    
+}
+
+.lindaShow {
+    
+    text-align: right;
+    position: relative;
+    top: 75px;;
+    left: 100%;
+    
+}
+
+
+
+.read-more 
+
+
+/* ----- MEDIA QUERIES ----- */
+
+@media (min-width:771px) and (max-height: 830px) {
+    
+    .mainContent {
+        
+        top: 20%;
+    }
+    
+}
+
+@media (max-width:770px) {
+    
+    .largeMenu {
+        
+        display:none;
+        
+    }
+    
+    #menu {
+        
+        padding: 2px;
+        margin: 2px;
+        
+    }
+    
+    .mobileMenu {
+        
+        display: block;
+        
+    }
+    
+    .mobileMenu {
+        
+        font-family: 'Amatic SC', cursive;
+        font-size: 1.5em;
+        
+    }
+    
+    .collapsed span {
+        
+        font-size: .2em;
+        
+    }
+    
+    .mobileMenu #collapseOne {
+        
+        font-family: 'Amatic SC', cursive;
+        font-size: .6em;
+        
+    }
+    
+    span.glyphicon.glyphicon-menu-down {
+        
+        font-size: .3em;
+        
+    }
+    
+    .aboutPhoto {
+        
+        height: 100px;
+        width: 100px;
+        
+    }
+    
+    .main {
+        
+        height: 80vh;
+        
+    }
+    
+    .mainContent {
+        
+        top:10%;
+        
+    }
+    
+    .mainContainer h1 {
+        
+        display: none;
+        
+    }
+    
+    .wigglePic {
+        
+        display: block;
+        margin: auto;
+        
+    }
+    
+    .gmap {
+        
+        height: 100%;
+        width: 100%;
+        
+    }
+    
+    footer p {
+        
+        text-align: center;
+        
+    }
+    
+}
