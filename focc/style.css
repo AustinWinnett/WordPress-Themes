@@ -3,7 +3,7 @@ Theme Name: Fort Osage Christian Counseling
 Theme URI: http://underscores.me/
 Author: Austin Winnett
 Author URI: http://austinwinnett.com
-Description: A custom theme for Fort Osage Christian Counseling. Requires the plugins Advanced Custom Fields and Contact Form 7.
+Description: A custom theme for Fort Osage Christian counseling
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -990,7 +990,7 @@ footer p {
 
 /* --- MEDIA QUERIES --- */
 
-@media (min-width: 701px) and (max-width: 1307px) {
+@media (min-width: 701px) and (max-width: 1403px) {
     
     .navvy.row > li {
     
@@ -1105,7 +1105,7 @@ footer p {
     
 }
 
-@media (min-width: 991px) and (max-width: 1147px) {
+@media (min-width: 1004px) and (max-width: 1147px) {
     
     .navvy.row > li {
     
@@ -1123,7 +1123,7 @@ footer p {
     
 }
 
-@media (min-width: 701px) and (max-width: 991px) {
+@media (min-width: 701px) and (max-width: 1003px) {
 
     .navvy.row {
         
@@ -1166,7 +1166,7 @@ footer p {
     
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1225px) {
     
     body {   
         background-size:auto;
