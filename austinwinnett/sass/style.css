@@ -1,0 +1,789 @@
+/*!
+Theme Name: Austin Winnett
+Theme URI: http://underscores.me/
+Author: Austin Winnett
+Author URI: http://austinwinnett.com
+Description: A material design redesign.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: austinwinnett
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Austin Winnett is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+    ## Posts and pages
+	## Asides
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+/*@import "variables-site/variables-site";
+@import "mixins/mixins-master";*/
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+/*@import "normalize";*/
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+/*@import "typography/typography";*/
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+/*@import "elements/elements";*/
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+/*@import "forms/forms";*/
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+/*@import "navigation/navigation";*/
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+/*@import "modules/accessibility";*/
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+/*@import "modules/alignments";*/
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+/*@import "modules/clearings";*/
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+/*@import "site/secondary/widgets";*/
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+/*@import "site/site";*/
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+/*@import "modules/infinite-scroll";*/
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+/*@import "media/media";*/
+/*--------------------------------------------------------------
+# Custom
+--------------------------------------------------------------*/
+/*78FFD6*/
+/* line 12, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+body {
+  color: #333;
+  font-family: "Lato", sans-serif;
+  background: url("../img/crossword.png") repeat;
+  background-attachment: fixed;
+  /*background-color: $gray;*/
+  display: none; }
+
+/* line 23, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.clear {
+  clear: both; }
+
+/* line 33, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+h1,
+h2,
+h3,
+i,
+p {
+  padding: 0;
+  margin: 0; }
+
+/* line 40, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+h1, h1 a {
+  text-align: left;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  padding: 20px 0 10px;
+  /*text-shadow: 5px 5px 0px #333;*/ }
+  /* line 48, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  h1:hover, h1:active, h1:focus, h1 a:hover, h1 a:active, h1 a:focus {
+    color: white;
+    text-decoration: none; }
+
+/* line 56, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+h2, h2 a {
+  font-family: "Raleway", sans-serif;
+  padding: 10px;
+  text-align: center;
+  color: white !important; }
+
+/* line 65, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+h3 {
+  color: #EEEEEF;
+  font-size: 1em;
+  font-family: 'Arial', sans-serif; }
+
+/* line 73, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+a {
+  color: #2d8ccb; }
+  /* line 77, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  a:hover {
+    color: #1a5278; }
+
+/* line 85, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.navvy {
+  background-color: #1abc9c;
+  position: fixed;
+  height: 150px;
+  width: 100%;
+  padding: 20px 20px;
+  -webkit-box-shadow: 0px 10px 22px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 22px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  z-index: 5; }
+
+/* line 99, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+#allCards {
+  z-index: -50; }
+
+/* line 105, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.card {
+  display: block;
+  margin: 0 auto 30px;
+  position: relative;
+  top: 50px;
+  width: 60%;
+  background-color: white;
+  -webkit-box-shadow: 0px 10px 22px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 22px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 22px -8px rgba(0, 0, 0, 0.75);
+  z-index: 10 !important; }
+  /* line 118, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .card h2 {
+    background-color: #e74c3c; }
+
+/* line 128, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+#blog .blogPostTitle, #comments .blogPostTitle {
+  color: #333;
+  font-weight: 700; }
+
+/* line 135, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+#blog .desc, #comments .desc {
+  text-align: left;
+  font-size: 1em;
+  padding: 5px 0; }
+
+/* line 143, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+#blog .panel .panel-default, #comments .panel .panel-default {
+  border-radius: 0; }
+
+/* line 149, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+#blog .panel, #comments .panel {
+  border: 0; }
+
+/* line 155, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+#blog .panel-heading, #comments .panel-heading {
+  padding: 0; }
+
+/* line 161, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+#blog #secondary .content, #comments #secondary .content {
+  font-size: 1.2em !important; }
+
+/* line 167, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+#blog #panelTitle, #comments #panelTitle {
+  color: white !important;
+  padding: 0; }
+
+/* line 174, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+#blog h2, #comments h2 {
+  background-color: none !important; }
+
+/* line 180, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+#blog h2 a, #comments h2 a {
+  color: white !important; }
+  /* line 184, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  #blog h2 a:hover, #blog h2 a:focus, #comments h2 a:hover, #comments h2 a:focus {
+    color: white;
+    text-decoration: none; }
+  /* line 191, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  #blog h2 a i, #comments h2 a i {
+    font-size: 1em; }
+
+/* line 199, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+#blog .blogSearch, #comments .blogSearch {
+  margin: 5px 0;
+  padding: 5px;
+  font-size: 1em;
+  border: 2px solid #EEEEEF;
+  width: 200px; }
+
+/* line 213, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+#post h2, #comments h2, #page h2 {
+  background-color: #2d8ccb; }
+
+/* line 221, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.desc {
+  color: #b9b9be;
+  text-align: center;
+  padding: 20px 0 10px;
+  text-indent: 0 !important;
+  font-size: 1.2em !important; }
+  /* line 229, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .desc i {
+    padding-right: 10px; }
+  /* line 235, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .desc a {
+    color: #b9b9be; }
+    /* line 239, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+    .desc a:hover {
+      color: #b9b9be; }
+
+/* line 249, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+#comments {
+  font-size: .8em; }
+  /* line 253, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  #comments .desc {
+    text-align: left;
+    font-size: 2em !important; }
+
+/* line 262, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.comment {
+  border: 2px solid #EEEEEF;
+  padding: 20px;
+  margin: 10px 0; }
+  /* line 268, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .comment .comment {
+    margin: 20px 0 10px; }
+  /* line 274, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .comment h3 {
+    font-size: 1.8em;
+    font-family: "Raleway", sans-serif;
+    color: #333; }
+  /* line 282, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .comment .date {
+    color: #C3C3C7;
+    text-indent: 0; }
+  /* line 289, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .comment .userPic {
+    font-size: 4em;
+    padding: 0 20px;
+    float: left; }
+  /* line 297, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .comment .commentContent {
+    padding: 10px 0 0; }
+
+/* line 305, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.newComment {
+  border: 0; }
+  /* line 309, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .newComment #newComment {
+    height: 150px; }
+
+/* line 317, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.post, .page {
+  padding-bottom: 75px !important;
+  position: relative; }
+
+/* line 324, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.post img, .page img {
+  max-width: 500px;
+  display: block;
+  margin: 20px auto; }
+
+/* line 332, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.back {
+  font-size: 1em;
+  position: absolute;
+  bottom: 20px; }
+  /* line 338, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .back a {
+    color: #333; }
+    /* line 342, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+    .back a:hover {
+      color: #333;
+      text-decoration: none; }
+  /* line 351, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .back i {
+    padding-right: 5px; }
+
+/* line 359, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.content {
+  padding: 10px 30px 30px; }
+  /* line 363, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .content p, .content li, .content a {
+    font-size: 1.5em; }
+  /* line 369, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .content p {
+    text-indent: 50px; }
+
+/* line 376, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+blockquote {
+  margin: 20px 0;
+  font-size: 1em;
+  border: 5px solid #EEEEEF;
+  padding: 40px 20px;
+  position: relative;
+  font-style: italic; }
+  /* line 385, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  blockquote::before {
+    content: "\f10d";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 2em;
+    color: #EEEEEF; }
+  /* line 397, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  blockquote::after {
+    content: "\f10e";
+    font-family: 'FontAwesome';
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 2em;
+    color: #EEEEEF; }
+
+/* line 411, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.languages, .frameworks, .cms {
+  list-style: none;
+  font-size: 1.8em !important; }
+
+/* line 418, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+li {
+  list-style: disc; }
+
+/* line 424, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.languages:before {
+  content: "\f121";
+  /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  /* same as padding-left set on li */
+  width: 1.5em;
+  /* same as padding-left set on li */ }
+
+/* line 434, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.frameworks:before {
+  content: "\f085";
+  /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  /* same as padding-left set on li */
+  width: 1.5em;
+  /* same as padding-left set on li */ }
+
+/* line 444, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.cms:before {
+  content: "\f013";
+  /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  /* same as padding-left set on li */
+  width: 1.5em;
+  /* same as padding-left set on li */ }
+
+/* line 454, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+#portfolio {
+  text-align: center; }
+
+/* line 460, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.contactCircle {
+  font-size: 3em;
+  height: 75px;
+  width: 75px;
+  background-color: #1abc9c;
+  color: white;
+  border-radius: 50%;
+  padding: 8px 13px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+  z-index: 100;
+  -webkit-box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.75); }
+  /* line 479, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .contactCircle:hover {
+    background-color: #148f77;
+    -webkit-box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.75); }
+
+/* line 490, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.websites {
+  text-align: center; }
+  /* line 494, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .websites .btnMain {
+    margin: 10px 0 0; }
+
+/* line 502, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.website {
+  display: inline-block;
+  padding: 0;
+  margin: 10px;
+  transition: 0.5s;
+  border: 1px solid #EEEEEF;
+  padding: 2px; }
+  /* line 511, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .website:hover {
+    -webkit-box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.75); }
+
+/* line 521, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.thumb {
+  width: 400px; }
+
+/* line 527, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.modal-header {
+  background-color: #1abc9c;
+  color: white; }
+
+/* line 534, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+button.close {
+  margin: 20px 20px 20px -20px !important; }
+
+/* line 540, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.modal-header {
+  padding: 0; }
+
+/* line 546, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.modal-content {
+  border-radius: 0; }
+  /* line 550, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .modal-content p, .modal-content a {
+    font-size: 1.3em;
+    padding: 2px 0;
+    color: #333; }
+  /* line 558, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .modal-content a {
+    display: block;
+    text-indent: 15px;
+    padding: 5px 0; }
+
+/* line 568, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.btnMain {
+  background-color: #1abc9c;
+  border-radius: 0;
+  color: white;
+  transition: 0.5s;
+  font-size: 1.5em; }
+  /* line 576, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .btnMain:hover, .btnMain:focus {
+    background-color: #148f77 !important;
+    color: white; }
+  /* line 583, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .btnMain:active {
+    background-color: #117964 !important;
+    outline: #117964 !important;
+    color: white; }
+
+/* line 593, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.btnPlain {
+  border-radius: 0; }
+  /* line 597, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .btnPlain:active, .btnPlain:focus {
+    outline: #117964 !important; }
+
+/* line 607, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+form input[type="text"], form textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 1.5em;
+  padding: 5px;
+  border: 2px solid #EEEEEF; }
+
+/* line 620, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+footer {
+  margin: 80px 0 20px;
+  text-align: center; }
+  /* line 625, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  footer .home {
+    font-size: 2em;
+    padding: 10px;
+    color: white;
+    transition: 0.3s;
+    width: 50px;
+    height: 50px;
+    background-color: #1abc9c;
+    border-radius: 50%; }
+  /* line 639, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  footer .social {
+    font-size: 2em;
+    padding: 10px;
+    color: #333;
+    transition: 0.3s; }
+  /* line 648, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  footer .fa-facebook:hover {
+    color: #3B5998; }
+  /* line 654, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  footer .fa-github:hover {
+    color: #4078C0; }
+  /* line 660, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  footer .fa-linkedin:hover {
+    color: #0077B5; }
+
+/* line 668, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.picture {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto; }
+
+/* line 680, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+#error {
+  text-align: center; }
+  /* line 684, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  #error p {
+    text-indent: 0; }
+
+/* line 692, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.errorIcon {
+  font-size: 15em; }
+
+/* line 698, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.faceCircle {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto; }
+
+/* line 707, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.flatface {
+  text-align: center; }
+
+/* line 713, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.flatface img {
+  width: 300px; }
+
+/* line 720, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+#myCarousel .item {
+  height: 250px; }
+
+/* line 726, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  color: #e74c3c; }
+
+/* line 733, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.categoryName {
+  background: #2d8ccb !important; }
+
+/* line 739, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.entry-title {
+  color: #333 !important; }
+
+/* line 745, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.entry-header h2 {
+  background-color: #2d8ccb !important; }
+
+/* line 751, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.read-more {
+  font-size: .8em !important; }
+
+/* line 757, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.widget-title {
+  color: #333;
+  font-size: 1.2em; }
+
+/* line 764, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.widget ul {
+  font-size: .5em; }
+
+/* line 770, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.widget_search {
+  padding-bottom: 20px; }
+  /* line 774, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .widget_search label {
+    font-family: "Lato", sans-serif;
+    font-weight: normal; }
+  /* line 781, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .widget_search input[type="search"] {
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+    font-size: 1em;
+    border: 2px solid #EEEEEF;
+    width: 200px; }
+  /* line 792, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .widget_search input[type="submit"] {
+    background-color: #1abc9c;
+    border: 0;
+    font-family: "Lato", sans-serif;
+    border-radius: 0;
+    color: white;
+    transition: 0.5s;
+    font-weight: normal;
+    font-size: 1.3em !important;
+    padding: 4px 7px;
+    margin: 0 10px; }
+    /* line 805, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+    .widget_search input[type="submit"]:hover, .widget_search input[type="submit"]:focus {
+      background-color: #148f77 !important;
+      color: white; }
+    /* line 812, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+    .widget_search input[type="submit"]:active {
+      background-color: #117964 !important;
+      outline: #117964 !important;
+      color: white; }
+
+/* line 824, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+.post-password-form, .no-results {
+  text-align: center; }
+  /* line 828, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .post-password-form p, .no-results p {
+    text-indent: 0 !important; }
+  /* line 834, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .post-password-form label, .no-results label {
+    margin: 25px 0 !important; }
+  /* line 840, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .post-password-form input[type="password"], .post-password-form input[type="search"], .no-results input[type="password"], .no-results input[type="search"] {
+    padding: 0 5px !important; }
+  /* line 846, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .post-password-form input[type="submit"], .no-results input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: #1abc9c;
+    border: 0;
+    font-family: "Lato", sans-serif;
+    border-radius: 0;
+    color: white;
+    transition: 0.5s;
+    font-weight: normal;
+    font-size: 1.3em !important;
+    padding: 4px 7px; }
+    /* line 860, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+    .post-password-form input[type="submit"]:hover, .post-password-form input[type="submit"]:focus, .no-results input[type="submit"]:hover, .no-results input[type="submit"]:focus {
+      background-color: #148f77 !important;
+      color: white; }
+    /* line 867, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+    .post-password-form input[type="submit"]:active, .no-results input[type="submit"]:active {
+      background-color: #117964 !important;
+      outline: #117964 !important;
+      color: white; }
+
+/* ===== MEDIA QUERIES ===== */
+@media (max-width: 1407px) {
+  /* line 883, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  h1 {
+    font-size: 2em; }
+  /* line 889, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  h3 {
+    font-size: .9em; } }
+
+@media (max-width: 1162px) {
+  /* line 899, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  h1 {
+    font-size: 1.8em; }
+  /* line 905, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  h3 {
+    font-size: .85em; } }
+
+@media (max-width: 1162px) {
+  /* line 915, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  h1 {
+    font-size: 1.8em; }
+  /* line 921, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  h3 {
+    font-size: .85em; } }
+
+@media (max-width: 1162px) {
+  /* line 931, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  h1 {
+    text-align: center;
+    font-size: 2.2em; }
+  /* line 938, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  h3 {
+    font-size: 1em; }
+  /* line 944, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .navvy {
+    height: 90px;
+    padding: 0px;
+    text-align: center !important; }
+  /* line 952, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .card {
+    top: 100px;
+    width: 80%; }
+  /* line 959, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  footer {
+    margin-top: 120px; } }
+
+@media (max-width: 695px) {
+  /* line 969, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .card {
+    width: 95%; }
+  /* line 975, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .post img, .page img {
+    width: 100%; } }
+
+@media (max-width: 525px) {
+  /* line 985, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .content p, li, .content a {
+    font-size: 1.2em !important; }
+  /* line 992, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .contactCircle {
+    height: 70px;
+    width: 70px;
+    font-size: 2.5em;
+    padding: 9px 0 0 15px; }
+  /* line 1001, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .thumb {
+    width: 95%; }
+  /* line 1007, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  footer {
+    font-size: .8em; }
+  /* line 1013, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .widget ul {
+    font-size: .7em; } }
+
+@media (max-width: 400px) {
+  /* line 1023, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .content {
+    padding: 10px; }
+  /* line 1029, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  ul {
+    margin: 0;
+    padding: 0 0 5px 30px; }
+  /* line 1036, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .widget ul {
+    font-size: .7em; }
+  /* line 1042, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  .contactCircle {
+    height: 50px;
+    width: 50px;
+    font-size: 2em;
+    padding: 4px 0 0 8px; }
+  /* line 1051, C:/Users/awinnett/Downloads/Websites/WiggleWorm/wp-content/themes/austinwinnett/sass/custom/_custom.scss */
+  footer {
+    padding-bottom: 70px; } }
+
+/*# sourceMappingURL=style.css.map */

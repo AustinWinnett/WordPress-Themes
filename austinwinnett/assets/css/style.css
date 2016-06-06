@@ -1,0 +1,536 @@
+/*78FFD6*/
+/* line 12, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+body {
+  color: #333;
+  font-family: "Lato", sans-serif;
+  background: url("../img/crossword.png") repeat;
+  background-attachment: fixed;
+  /*background-color: $gray;*/
+  display: none; }
+
+/* line 23, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.clear {
+  clear: both; }
+
+/* line 33, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+h1,
+h2,
+h3,
+i,
+p {
+  padding: 0;
+  margin: 0; }
+
+/* line 40, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+h1, h1 a {
+  text-align: left;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  padding: 20px 0 10px;
+  /*text-shadow: 5px 5px 0px #333;*/ }
+  /* line 48, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  h1:hover, h1 a:hover {
+    color: white;
+    text-decoration: none; }
+
+/* line 56, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+h2 {
+  font-family: "Raleway", sans-serif;
+  padding: 10px;
+  text-align: center;
+  color: white; }
+
+/* line 65, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+h3 {
+  color: #EEEEEF;
+  font-size: 1em;
+  font-family: 'Arial', sans-serif; }
+
+/* line 73, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+a {
+  color: #2d8ccb; }
+  /* line 77, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  a:hover {
+    color: #1a5278; }
+
+/* line 85, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.navvy {
+  background-color: #1abc9c;
+  position: fixed;
+  height: 150px;
+  width: 100%;
+  padding: 20px 20px;
+  -webkit-box-shadow: 0px 10px 22px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 22px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  z-index: 5; }
+
+/* line 99, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+#allCards {
+  z-index: -50; }
+
+/* line 105, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.card {
+  display: block;
+  margin: 0 auto 30px;
+  position: relative;
+  top: 50px;
+  width: 60%;
+  background-color: white;
+  -webkit-box-shadow: 0px 10px 22px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 22px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 22px -8px rgba(0, 0, 0, 0.75);
+  z-index: 10 !important; }
+  /* line 118, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .card h2 {
+    background-color: #e74c3c; }
+
+/* line 128, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+#blog .blogPostTitle, #comments .blogPostTitle {
+  color: #333;
+  font-weight: 700; }
+
+/* line 135, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+#blog .desc, #comments .desc {
+  text-align: left;
+  font-size: 1em;
+  padding: 5px 0; }
+
+/* line 143, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+#blog .panel .panel-default, #comments .panel .panel-default {
+  border-radius: 0; }
+
+/* line 149, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+#blog .panel, #comments .panel {
+  border: 0; }
+
+/* line 155, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+#blog .panel-heading, #comments .panel-heading {
+  padding: 0; }
+
+/* line 161, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+#blog h2, #comments h2 {
+  background-color: none !important; }
+
+/* line 167, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+#blog h2 a, #comments h2 a {
+  color: white; }
+  /* line 171, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  #blog h2 a:hover, #blog h2 a:focus, #comments h2 a:hover, #comments h2 a:focus {
+    color: white;
+    text-decoration: none; }
+  /* line 178, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  #blog h2 a i, #comments h2 a i {
+    font-size: 1em; }
+
+/* line 186, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+#blog .blogSearch, #comments .blogSearch {
+  margin: 5px 0;
+  padding: 5px;
+  font-size: 1em;
+  border: 2px solid #EEEEEF;
+  width: 200px; }
+
+/* line 200, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+#post h2, #comments h2, #page h2 {
+  background-color: #2d8ccb; }
+
+/* line 208, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.desc {
+  color: #b9b9be;
+  text-align: center;
+  padding-bottom: 20px;
+  text-indent: 0 !important;
+  font-size: 1.2em !important; }
+  /* line 216, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .desc i {
+    padding-right: 10px; }
+
+/* line 224, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+#comments {
+  font-size: .8em; }
+  /* line 228, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  #comments .desc {
+    text-align: left;
+    font-size: 2em !important; }
+
+/* line 237, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.comment {
+  border: 2px solid #EEEEEF;
+  padding: 20px;
+  margin: 10px 0; }
+  /* line 243, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .comment .comment {
+    margin: 20px 0 10px; }
+  /* line 249, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .comment h3 {
+    font-size: 1.8em;
+    font-family: "Raleway", sans-serif;
+    color: #333; }
+  /* line 257, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .comment .date {
+    color: #C3C3C7;
+    text-indent: 0; }
+  /* line 264, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .comment .userPic {
+    font-size: 4em;
+    padding: 0 20px;
+    float: left; }
+  /* line 272, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .comment .commentContent {
+    padding: 10px 0 0; }
+
+/* line 280, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.newComment {
+  border: 0; }
+  /* line 284, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .newComment #newComment {
+    height: 150px; }
+
+/* line 292, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.post, .page {
+  padding-bottom: 75px !important;
+  position: relative; }
+
+/* line 299, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.post img, .page img {
+  max-width: 500px;
+  display: block;
+  margin: 20px auto; }
+
+/* line 307, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.back {
+  font-size: 1em;
+  position: absolute;
+  bottom: 20px; }
+  /* line 313, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .back a {
+    color: #333; }
+    /* line 317, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+    .back a:hover {
+      color: #333;
+      text-decoration: none; }
+  /* line 326, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .back i {
+    padding-right: 5px; }
+
+/* line 334, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.content {
+  padding: 30px; }
+  /* line 338, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .content p, .content li, .content a {
+    font-size: 1.5em; }
+  /* line 344, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .content p {
+    text-indent: 50px; }
+
+/* line 351, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.languages, .frameworks, .cms {
+  list-style: none;
+  font-size: 1.8em !important; }
+
+/* line 358, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+li {
+  list-style: disc; }
+
+/* line 364, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.languages:before {
+  content: "\f121";
+  /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  /* same as padding-left set on li */
+  width: 1.5em;
+  /* same as padding-left set on li */ }
+
+/* line 374, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.frameworks:before {
+  content: "\f085";
+  /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  /* same as padding-left set on li */
+  width: 1.5em;
+  /* same as padding-left set on li */ }
+
+/* line 384, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.cms:before {
+  content: "\f013";
+  /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  /* same as padding-left set on li */
+  width: 1.5em;
+  /* same as padding-left set on li */ }
+
+/* line 394, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+#portfolio {
+  text-align: center; }
+
+/* line 400, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.contactCircle {
+  font-size: 3em;
+  height: 75px;
+  width: 75px;
+  background-color: #1abc9c;
+  color: white;
+  border-radius: 50%;
+  padding: 8px 13px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+  z-index: 100;
+  -webkit-box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.75); }
+  /* line 419, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .contactCircle:hover {
+    background-color: #148f77;
+    -webkit-box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.75); }
+
+/* line 430, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.websites {
+  text-align: center; }
+  /* line 434, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .websites .btnMain {
+    margin: 10px 0 0; }
+
+/* line 442, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.website {
+  display: inline-block;
+  padding: 0;
+  margin: 10px;
+  transition: 0.5s;
+  border: 1px solid #EEEEEF;
+  padding: 2px; }
+  /* line 451, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .website:hover {
+    -webkit-box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.75); }
+
+/* line 461, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.thumb {
+  width: 400px; }
+
+/* line 467, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.modal-header {
+  background-color: #1abc9c;
+  color: white; }
+
+/* line 474, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+button.close {
+  margin: 20px 20px 20px -20px !important; }
+
+/* line 480, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.modal-header {
+  padding: 0; }
+
+/* line 486, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.modal-content {
+  border-radius: 0; }
+  /* line 490, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .modal-content p, .modal-content a {
+    font-size: 1.3em;
+    padding: 2px 0;
+    color: #333; }
+  /* line 498, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .modal-content a {
+    display: block;
+    text-indent: 15px;
+    padding: 5px 0; }
+
+/* line 508, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.btnMain {
+  background-color: #1abc9c;
+  border-radius: 0;
+  color: white;
+  transition: 0.5s;
+  font-size: 1.5em; }
+  /* line 516, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .btnMain:hover, .btnMain:focus {
+    background-color: #148f77 !important;
+    color: white; }
+  /* line 523, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .btnMain:active {
+    background-color: #117964 !important;
+    outline: #117964 !important;
+    color: white; }
+
+/* line 533, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.btnPlain {
+  border-radius: 0; }
+  /* line 537, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .btnPlain:active, .btnPlain:focus {
+    outline: #117964 !important; }
+
+/* line 547, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+form input[type="text"], form textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 1.5em;
+  padding: 5px;
+  border: 2px solid #EEEEEF; }
+
+/* line 560, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+footer {
+  margin: 80px 0 20px;
+  text-align: center; }
+  /* line 565, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  footer .home {
+    font-size: 2em;
+    padding: 10px;
+    color: white;
+    transition: 0.3s;
+    width: 50px;
+    height: 50px;
+    background-color: #1abc9c;
+    border-radius: 50%; }
+  /* line 579, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  footer .social {
+    font-size: 2em;
+    padding: 10px;
+    color: #333;
+    transition: 0.3s; }
+  /* line 588, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  footer .fa-facebook:hover {
+    color: #3B5998; }
+  /* line 594, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  footer .fa-github:hover {
+    color: #4078C0; }
+  /* line 600, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  footer .fa-linkedin:hover {
+    color: #0077B5; }
+
+/* line 608, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.picture {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto; }
+
+/* line 620, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.faceCircle {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto; }
+
+/* line 629, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.flatface {
+  text-align: center; }
+
+/* line 635, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.flatface img {
+  width: 300px; }
+
+/* line 642, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+#myCarousel .item {
+  height: 250px; }
+
+/* line 648, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  color: #e74c3c; }
+
+/* ===== MEDIA QUERIES ===== */
+@media (max-width: 1407px) {
+  /* line 659, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  h1 {
+    font-size: 2em; }
+  /* line 665, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  h3 {
+    font-size: .9em; } }
+
+@media (max-width: 1162px) {
+  /* line 675, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  h1 {
+    font-size: 1.8em; }
+  /* line 681, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  h3 {
+    font-size: .85em; } }
+
+@media (max-width: 1162px) {
+  /* line 691, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  h1 {
+    font-size: 1.8em; }
+  /* line 697, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  h3 {
+    font-size: .85em; } }
+
+@media (max-width: 1162px) {
+  /* line 707, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  h1 {
+    text-align: center;
+    font-size: 2.2em; }
+  /* line 714, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  h3 {
+    font-size: 1em; }
+  /* line 720, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .navvy {
+    height: 90px;
+    padding: 0px;
+    text-align: center !important; }
+  /* line 728, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .card {
+    top: 100px;
+    width: 80%; }
+  /* line 735, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  footer {
+    margin-top: 120px; } }
+
+@media (max-width: 695px) {
+  /* line 745, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .card {
+    width: 95%; }
+  /* line 751, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .post img, .page img {
+    width: 100%; } }
+
+@media (max-width: 525px) {
+  /* line 761, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .content p, li, .content a {
+    font-size: 1.2em !important; }
+  /* line 768, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .contactCircle {
+    height: 70px;
+    width: 70px;
+    font-size: 2.5em;
+    padding: 9px 0 0 15px; }
+  /* line 777, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .thumb {
+    width: 95%; }
+  /* line 783, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  footer {
+    font-size: .8em; } }
+
+@media (max-width: 400px) {
+  /* line 793, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .content {
+    padding: 10px; }
+  /* line 799, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  ul {
+    margin: 0;
+    padding: 0 0 5px 30px; }
+  /* line 806, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  .contactCircle {
+    height: 50px;
+    width: 50px;
+    font-size: 2em;
+    padding: 4px 0 0 8px; }
+  /* line 815, C:/Users/awinnett/Downloads/Websites/MaterialDesign/assets/css/style.scss */
+  footer {
+    padding-bottom: 70px; } }
+
+/*# sourceMappingURL=style.css.map */
